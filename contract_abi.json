@@ -1,0 +1,38 @@
+[
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "propertyId",
+                "type": "uint256"
+            },
+            {
+                "name": "propertyDetails",
+                "type": "string"
+            }
+        ],
+        "name": "addProperty",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "propertyId",
+                "type": "uint256"
+            },
+            {
+                "name": "newOwnerAddress",
+                "type": "address"
+            }
+        ],
+        "name": "transferOwnership",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]
